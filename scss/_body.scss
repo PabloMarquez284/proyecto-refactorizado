@@ -1,0 +1,41 @@
+@use 'colores';
+
+body {
+  background-color: colores.$colorBackground;
+  color: colores.$color01; 
+  font-family: Arial, sans-serif; 
+  margin: 0; 
+  padding: 0;
+}
+
+main {
+  padding: 20px 40px; 
+  min-height: 60vh;
+}
+
+.caja-contenido {
+  background-color: colores.$color02; 
+  padding: 20px; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: colores.$color03; 
+  border-bottom: 2px solid colores.$color03; 
+  padding-bottom: 5px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.lista-habilidades {
+  list-style: square;
+  padding-left: 20px;
+
+  li {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+}

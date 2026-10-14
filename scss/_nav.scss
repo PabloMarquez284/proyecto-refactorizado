@@ -1,0 +1,20 @@
+@use 'colores';
+
+nav {
+    background-color: colores.$color01; 
+    padding: 10px 40px;
+    ul {
+        margin: 0; 
+        padding: 0; 
+        list-style: none; 
+        text-align: center;
+        li {
+            display: inline-block; 
+            margin-right: 20px;
+            a {
+                color: colores.$color02; 
+                text-decoration: none; 
+                font-weight: bold; 
+                font-size: 1.1em;
+                &.activo {
+                    color: colores.$colorNavActivo;}}}}}
