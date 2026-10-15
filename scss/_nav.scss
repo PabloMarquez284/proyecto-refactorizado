@@ -15,7 +15,9 @@ nav {
                 color: colores.$color02; 
                 text-decoration: none; 
                 font-size: 1.1em;
-                &.activo {
+                padding: 5px;
+                transition: 0.3s;
+                 &.activo {
                     color: colores.$color02;
                     font-weight: bold;
                     font-size: 1.3em;}}}}}

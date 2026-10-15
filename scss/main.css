@@ -50,6 +50,8 @@ nav ul li a {
   color: #F5F5F5;
   text-decoration: none;
   font-size: 1.1em;
+  padding: 5px;
+  transition: 0.3s;
 }
 nav ul li a.activo {
   color: #F5F5F5;
@@ -101,6 +103,17 @@ p {
 }
 .lista-habilidades li {
   margin-bottom: 10px;
+}
+
+.form {
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.boton {
+  background-color: #B73D2B;
+  color: #F5F5F5;
 }
 
 footer {
