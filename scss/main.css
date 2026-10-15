@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap");
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #004a99;
-  color: white;
+  background-color: #590B00;
+  color: #F5F5F5;
   border: none;
   border-radius: 4px;
   font-size: 1em;
@@ -16,8 +18,8 @@
 }
 
 header {
-  background-color: #004a99;
-  color: white;
+  background-color: #590B00;
+  color: #F5F5F5;
   padding: 20px 40px;
   text-align: center;
 }
@@ -27,11 +29,11 @@ header h1 {
 }
 header p {
   margin: 5px 0 0 0;
-  font-style: italic;
+  font-style: "Space Grotesk", sans-serif;
 }
 
 nav {
-  background-color: #333;
+  background-color: #B73D2B;
   padding: 10px 40px;
 }
 nav ul {
@@ -45,19 +47,20 @@ nav ul li {
   margin-right: 20px;
 }
 nav ul li a {
-  color: white;
+  color: #F5F5F5;
   text-decoration: none;
-  font-weight: bold;
   font-size: 1.1em;
 }
 nav ul li a.activo {
-  color: #00aaff;
+  color: #F5F5F5;
+  font-weight: bold;
+  font-size: 1.3em;
 }
 
 body {
-  background-color: #f4f4f4;
-  color: #333;
-  font-family: Arial, sans-serif;
+  background-color: #F5F5F5;
+  color: #000000;
+  font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -68,16 +71,24 @@ main {
 }
 
 .caja-contenido {
-  background-color: white;
+  background-color: #F5F5F5;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px #000000;
+}
+
+h1 {
+  font-family: "Space Grotesk", sans-serif;
 }
 
 h2 {
-  color: #004a99;
-  border-bottom: 2px solid #004a99;
+  color: #B73D2B;
+  border-bottom: 2px solid #B73D2B;
   padding-bottom: 5px;
+}
+
+h3 {
+  color: #B73D2B;
 }
 
 p {
@@ -90,12 +101,11 @@ p {
 }
 .lista-habilidades li {
   margin-bottom: 10px;
-  font-weight: bold;
 }
 
 footer {
-  background-color: #222;
-  color: #aaa;
+  background-color: #590B00;
+  color: #F5F5F5;
   padding: 20px 40px;
   text-align: center;
   margin-top: 20px;

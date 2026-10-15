@@ -14,7 +14,8 @@ nav {
             a {
                 color: colores.$color02; 
                 text-decoration: none; 
-                font-weight: bold; 
                 font-size: 1.1em;
                 &.activo {
-                    color: colores.$colorNavActivo;}}}}}
+                    color: colores.$color02;
+                    font-weight: bold;
+                    font-size: 1.3em;}}}}}
