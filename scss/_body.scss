@@ -1,8 +1,8 @@
 @use 'colores';
 
 body {
-  background-color: colores.$color02;
-  color: colores.$color05; 
+  background-color: colores.$colorFondo;
+  color: colores.$colorTexto; 
   font-family: "Inter", sans-serif; 
   margin: 0; 
   padding: 0;
@@ -14,10 +14,10 @@ main {
 }
 
 .caja-contenido {
-  background-color: colores.$color02; 
+  background-color: colores.$colorFondo; 
   padding: 20px; 
   border-radius: 8px; 
-  box-shadow: 0 2px 5px colores.$color05;
+  box-shadow: 0 2px 5px colores.$colorTexto;
 }
 
 h1 {
@@ -26,12 +26,12 @@ h1 {
 
 h2 {
   color: colores.$color01; 
-  border-bottom: 2px solid colores.$color01; 
+  border-bottom: 2px solid colores.$colorPrimario; 
   padding-bottom: 5px;
 }
 
 h3 {
-  color: colores.$color01; 
+  color: colores.$colorPrimario; 
 }
 
 p {
@@ -54,6 +54,6 @@ p {
 }
 
 .boton {
-  background-color: colores.$color01; 
-  color: colores.$color02; 
+  background-color: colores.$colorPrimario; 
+  color: colores.$colorFondo; 
 }

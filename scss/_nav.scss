@@ -1,7 +1,7 @@
 @use 'colores';
 
 nav {
-    background-color: colores.$color01; 
+    background-color: colores.$colorPrimario; 
     padding: 10px 40px;
     ul {
         margin: 0; 
@@ -12,12 +12,12 @@ nav {
             display: inline-block; 
             margin-right: 20px;
             a {
-                color: colores.$color02; 
+                color: colores.$colorFondo; 
                 text-decoration: none; 
                 font-size: 1.1em;
                 padding: 5px;
                 transition: 0.3s;
                  &.activo {
-                    color: colores.$color02;
+                    color: colores.$colorFondo;
                     font-weight: bold;
                     font-size: 1.3em;}}}}}
