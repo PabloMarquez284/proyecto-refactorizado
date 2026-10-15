@@ -4,6 +4,6 @@ Este trabajo consiste en refactorizar tanto el HTML como el CSS de una página w
 
 Una vez refactorizado el código, vamos a mejorar y cambiar a nuestra manera la parte de diseño. En cuanto a los colores, he generado una paleta de 5 colores con la herramienta [**Adobe Color**](https://color.adobe.com/create/color-wheel). He generado un color primario, un secundario, uno claro para el fondo, otro para el texto y uno auxiliar.
 
-![![alt text](image.png)]
+![alt text](colores.png)
 
 Acerca de la tipografía, mediante la herramienta [**Google Fonts**](https://fonts.google.com/) he elegido dos fuentes ‘sans-serif’: ‘Inter’ para el texto y ‘Space Grotesk’ para el título de la cabecera. Los he importado en el main.scss y luego los he ido cambiando en los demás archivos.
